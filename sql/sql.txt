@@ -1,0 +1,21 @@
+<!--Developer: Shaun Pritchard
+Project: Smart Login System Regitraton & Validation
+Date -JAN-10-2018  -->
+
+COPY THE MYSQL QEURY BELOW AND PAST IT INTO THE BACK END UNDER SQL SECTION AND PRESS GO TO CREATE THE DATA BASE.
+IF YOU CHANGE ANY OF THE NAMES BELOW YOU WILL HAVE TO GO THROUGH THE ENTIRE  PROGRAM AND CHANGE THE TABLE ANME PERAMETERS.
+----------------------------------------------------------------------------
+
+CREATE DATABASE accounts;
+
+CREATE TABLE `accounts`.`users` 
+(
+    `id` INT NOT NULL AUTO_INCREMENT,
+    `first_name` VARCHAR(50) NOT NULL,
+     `last_name` VARCHAR(50) NOT NULL,
+    `email` VARCHAR(100) NOT NULL,
+    `password` VARCHAR(100) NOT NULL,
+    `hash` VARCHAR(32) NOT NULL,
+    `active` BOOL NOT NULL DEFAULT 0,
+PRIMARY KEY (`id`) 
+);

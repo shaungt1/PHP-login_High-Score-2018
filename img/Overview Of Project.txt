@@ -1,0 +1,20 @@
+/*Developer: Shaun Pritchard
+Project: Smart Login System Regitraton & Validation
+Date -JAN-10-2018*/
+
+This is a dynamic warm after I don't using PHP Vue.Js and some new CSS Frameworks.
+such as bootstrap 4 and Reserve Foundation for the templates and for the responsive forms. 
+
+This storm has 12 PHP files which allow user to login register log out view of register.
+reset a password verify the password success in the password for getting passwords and 
+error file to resolve any issues with the login or registration. this is a full
+web application registration system.
+
+I biult this local on MySQL and then formated it to work on on the online server provided for class.
+if anyone would like to have a copy of this and extend on it please contact me.
+This is a full register system it also cross examines passwrods, can reset  passwords. all passwords use 
+Encrypt JS simular to how block chains technology works but for a login system.
+
+I Will be adding google API login system to this as well.
+
+Shaun Pritchard: spritchard5@hawkmail.hccfl.edu
